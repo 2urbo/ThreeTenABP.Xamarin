@@ -25,7 +25,7 @@ Task("Libs")
 	.IsDependentOn("Externals")
 	.Does(() =>
 {
-	MSBuild("./ThreeTenABP/ThreeTenABP.csproj", c => {
+	MSBuild("./ThreeTenABP.sln", c => {
 		c.Configuration = "Release";
 		c.Restore = true;
 		c.MaxCpuCount = 0;
@@ -37,7 +37,7 @@ Task("Nuget")
 	.IsDependentOn("Libs")
 	.Does(() =>
 {
-	MSBuild ("./ThreeTenABP/ThreeTenABP.csproj", c => {
+	MSBuild ("./ThreeTenABP.sln", c => {
 		c.Configuration = "Release";
 		c.MaxCpuCount = 0;
 		c.Targets.Clear();
@@ -59,8 +59,7 @@ Task ("Clean")
 });
 
 Task ("Default")
-    // .IsDependentOn("Clean")
-    // .IsDependentOn("Nuget")
+    .IsDependentOn("Clean")
     .IsDependentOn("Nuget")
     .Does(() => {});
 
