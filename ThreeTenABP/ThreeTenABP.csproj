@@ -17,7 +17,7 @@
     <Authors>Jake Wharton, Dmitry Brukhansky</Authors>
     <Copyright>Copyright 2020</Copyright>
     <Title>Jake Wharton's ThreeTenAbp for Xamarin.Android</Title>
-    <PackageLicenseUrl>https://github.com/2urbo/ThreeTenABP.Xamarin/blob/master/LICENSE</PackageLicenseUrl>
+    <PackageLicenseUrl>https://github.com/2urbo/ThreeTenABP.Xamarin/blob/master/LICENSE.md</PackageLicenseUrl>
     <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
     <Owners>Dmitry Brukhansky</Owners>
     <PackageProjectUrl>https://github.com/2urbo/ThreeTenABP.Xamarin</PackageProjectUrl>
