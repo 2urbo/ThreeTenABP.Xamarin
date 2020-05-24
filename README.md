@@ -8,7 +8,7 @@ Package is available on NuGet:
 ![Nuget](https://img.shields.io/nuget/v/ThreeTenAbp.Xamarin.Android)
 
 ```
-Install-Package Install-Package ThreeTenAbp.Xamarin.Android
+Install-Package ThreeTenAbp.Xamarin.Android
 ```
 
 ## Usage
